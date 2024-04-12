@@ -1,15 +1,12 @@
-"use client"
-
-import Meet from '@/components/Meet';
+import Meet from '@/components/Meet'
 import React from 'react'
 
-const MeetID = ({ params }: { params: { id: string } }) => {
-  const id = params.id;
+const MeetingRoom = ({ params }: any) => {
   return (
     <div>
-      <Meet id={id} />
+      <Meet id={params.id} />
     </div>
   )
 }
 
-export default MeetID
+export default MeetingRoom
