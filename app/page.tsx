@@ -21,7 +21,7 @@ const Home = () => {
     <div>
       <div className='flex flex-col justify-center items-center h-screen'>
         <div className='flex flex-col w-full max-w-sm items-center space-x-2 my-8'>
-          <h1 className='text-center w-full text-4xl font-bold'>Boom</h1>
+          <h1 className='text-center w-full text-4xl font-bold'>BOOM</h1>
           <h1 className='text-center w-full font-light'>Zoom Clone</h1>
         </div>
         <div className='flex w-full max-w-sm items-center space-x-2'>

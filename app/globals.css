@@ -73,4 +73,10 @@
     body {
       @apply bg-background text-foreground;
     }
+    video {
+      @apply rounded-xl;
+    }
+    img {
+      @apply rounded-xl;
+    }
   }
